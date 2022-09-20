@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:cursive;
+  }
+  #class{
+    width:100%;
+    height:100vh;
+    background-image: url(https://media.istockphoto.com/photos/glowing-light-bulb-and-book-or-text-book-with-futuristic-icon-self-picture-id1320882544?b=1&k=20&m=1320882544&s=170667a&w=0&h=ihwn0m_Ify_x1yHWH78pNWZhDkyA4ZPZaHV7DrU2eL0=) ;
+    background-size: cover;
+    
+  }
+  nav{
+    width: 100%;
+    height: 50px;
+    background-color: #0005;
+    line-height: 50px;
+  }
+  nav ul{
+    float: right;
+    margin-right: 30px;
+  }
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+  }
+  nav ul li:hover{
+    background-color:darkgrey;
+  }
+  nav ul li a{
+    text-decoration:wavy;
+    color: #fff;
+    padding: 30px;
+  }
+.logo{
+    
+    margin: 50px;
+    font-size: larger;
+    text-align: center;
+    color:black;
+}
